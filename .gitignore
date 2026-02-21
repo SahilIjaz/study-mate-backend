@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Python virtual env
+studymate-env/
+venv/
+__pycache__/
+
+# Python cache
+*.pyc
+
+# Mac
+.DS_Store
