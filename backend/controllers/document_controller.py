@@ -56,7 +56,6 @@ async def ask_question(question: str) -> dict:
         for c in relevant_chunks
     ])
 
-
     message = claude.messages.create(
         model="claude-3-haiku-20240307",
         max_tokens=1024,
