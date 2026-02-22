@@ -1,6 +1,11 @@
+
+import sys, os
+sys.path.insert(0, os.path.dirname(__file__))
+from routes.documents import router as document_router
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes.documents import router as document_router
+# from routes.documents import router as document_router
+
 
 app = FastAPI(
     title="StudyMate AI",
